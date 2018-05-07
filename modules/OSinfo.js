@@ -1,5 +1,5 @@
 var os = require('os');
-var OStime = require('c:/kodilla/zadanie_13_5/modules/OStime');
+var OStime = require('./modules/OStime');
 var colors = require('colors');
 
 function getOSinfo() {
