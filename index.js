@@ -6,7 +6,7 @@ var event = require('events');
 var EventEmitter = event.EventEmitter;
 var emitter = new EventEmitter();
 emitter.on("beforeCommand", function(instruction) {
-	console.log('Napisałeś:' + instruction + 'chcąc uruchomić polecenie.')
+	console.log('Napisałeś: ' + instruction + ' chcąc uruchomić polecenie.')
 });
 emitter.on('afterCommand', function() {
 	console.log('Finished command');
